@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="957eb23e-6dd1-4062-b5d7-89a0daa640d3" name="Changes" comment="feat: commit test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251014.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/김웅진/labs/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/윤수정/diary/251014.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/윤수정/labs/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251014.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/이기윤/labs/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251014.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251014.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/윤수정/TEST.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/이기윤/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/정다희/TEST.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/최민혁/TEST.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/untitled">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="untitled" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="340IHK80jISK4K9ESViMy4Xi2iK" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build likelion-retro2nd-team3-repo.executor": "Run",
+    "Gradle.likelion-retro2nd-team3-repo [:com.members.김웅진.labs.Test.main()].executor": "Run",
+    "Gradle.likelion-retro2nd-team3-repo [:com.members.윤수정.labs.Test.main()].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.LikelionRetro2ndTeam3RepoApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jeongdahee/dev/likelion-retro2nd-team3-repo/src/main/java/com/members/김웅진",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23312883",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/members/김웅진" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/members/최민혁" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/members/정다희" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/members/이기윤" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/likelion_retro2nd_team3_repo" />
+      <recent name="$PROJECT_DIR$/members" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="LikelionRetro2ndTeam3RepoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="likelion-retro2nd-team3-repo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.likelion_retro2nd_team3_repo.LikelionRetro2ndTeam3RepoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="957eb23e-6dd1-4062-b5d7-89a0daa640d3" name="Changes" comment="" />
+      <created>1760343973869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760343973869</updated>
+      <workItem from="1760343975234" duration="511000" />
+      <workItem from="1760344939443" duration="1570000" />
+      <workItem from="1760346975096" duration="5919000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 201013 폴더 생성 및 commit test">
+      <option name="closed" value="true" />
+      <created>1760344077221</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760344077221</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: commit test">
+      <option name="closed" value="true" />
+      <created>1760361049063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760361049063</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="91ff4c1f-71a8-42c4-8cc0-4f9fe7a7a324" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="91ff4c1f-71a8-42c4-8cc0-4f9fe7a7a324">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 201013 폴더 생성 및 commit test" />
+    <MESSAGE value="feat: commit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: commit test" />
+  </component>
+</project>
