@@ -1,0 +1,95 @@
+🌟 Spring Boot 기초 실습 문제 세트
+--------------------------------------------------------------------------------
+🧩 문제 1 — IoC와 Bean 관리
+
+문제 설명:
+Spring Boot 프로젝트에서 Car 클래스를 Bean으로 등록하고,
+CarService 클래스에서 Car를 주입받아 동작하도록 구현하시오.
+
+--요구사항
+
+1. Car 클래스는 brand와 price를 가진 일반 Java 클래스이다.
+
+2. CarConfig라는 설정 클래스에서 @Bean으로 Car 객체를 등록한다.
+
+3. CarService 클래스에서 Bean을 주입받아 자동차 정보를 출력한다.
+
+4. 애플리케이션 실행 시 콘솔에 자동차 정보가 출력되어야 한다.
+
+예상 출력:
+
+자동차 브랜드: Tesla
+가격: 90000
+
+
+✅ 학습 포인트
+
+@Configuration + @Bean 으로 수동 등록하는 방법 이해
+
+Spring이 Bean을 생성하고 관리(IoC)한다는 개념
+
+생성자 주입(의존성 주입, DI)의 기본 구조
+
+--------------------------------------------------------------------------------
+🧩 문제 2 — 컴포넌트 스캔과 자동 주입
+
+문제 설명:
+@Component, @Service, @Repository 를 이용해 Bean을 자동 등록하고 주입해보자.
+
+요구사항
+
+1. UserRepository 클래스 → @Repository 사용
+
+2. UserService 클래스 → @Service 사용
+
+3. UserController 클래스 → @RestController 사용
+
+4. /user 요청 시 “사용자 수: 3명”을 반환하도록 구성
+
+예상 출력:
+
+GET http://localhost:8080/user
+→ {"message": "사용자 수: 3명"}
+
+✅ 학습 포인트
+
+@Component 계열 어노테이션의 역할 (@Service, @Repository, @Controller)
+
+컴포넌트 스캔(@ComponentScan)이 자동으로 Bean을 등록하는 과정
+
+계층별 역할 분리: Controller → Service → Repository
+
+--------------------------------------------------------------------------------
+🧩 문제 3 — Bean Scope 실험하기
+
+문제 설명:
+Book Bean을 singleton과 prototype 스코프로 만들어
+Spring이 Bean을 어떻게 관리하는지 비교해보자.
+
+요구사항
+
+1. Book 클래스는 title을 가진다.
+
+2. BookConfig에서 @Bean으로 bookA와 bookB 등록:
+
+3. bookA: 기본 싱글톤 스코프
+
+4. bookB: @Scope("prototype") 적용
+
+5. 두 Bean을 2번씩 가져와 인스턴스가 같은지 비교
+
+예상 출력:
+
+bookA1 == bookA2 ? true
+bookB1 == bookB2 ? false
+
+
+✅ 학습 포인트
+
+Bean의 스코프(Scope) 개념
+
+singleton: 컨테이너당 하나의 인스턴스
+
+prototype: 요청할 때마다 새로운 인스턴스
+
+IoC 컨테이너가 Bean을 생성하고 재사용하는 방식 실습
