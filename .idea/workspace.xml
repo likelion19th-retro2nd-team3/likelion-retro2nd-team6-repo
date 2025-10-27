@@ -4,15 +4,182 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957eb23e-6dd1-4062-b5d7-89a0daa640d3" name="Changes" comment="feat: commit test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251015.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251016.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="957eb23e-6dd1-4062-b5d7-89a0daa640d3" name="Changes" comment="add: 251027 실습 코드 업로드">
+      <change afterPath="$PROJECT_DIR$/정다희/labs/practice_251027/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.14.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_commons_1_15_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_observation_1_15_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_2_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_17_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_17_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_24_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_24_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_27_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_awaitility_awaitility_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_5_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_5_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_2_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_3_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_6_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_10_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/likelion-retro2nd-team3-repo.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/likelion-retro2nd-team3-repo.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/likelion_retro2nd_team3_repo/LikelionRetro2ndTeam3RepoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/members/김웅진/labs/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/members/윤수정/labs/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/members/이기윤/labs/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/members/정다희/labs/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/members/최민혁/labs/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/likelion_retro2nd_team3_repo/LikelionRetro2ndTeam3RepoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/likelion-retro2nd-team3-repo-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/likelion-retro2nd-team3-repo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.example.likelion_retro2nd_team3_repo.LikelionRetro2ndTeam3RepoApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.example.likelion_retro2nd_team3_repo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.example.likelion_retro2nd_team3_repo.LikelionRetro2ndTeam3RepoApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Test.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/et --hard HEAD~1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/likelion_retro2nd_team3_repo/LikelionRetro2ndTeam3RepoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/Template.md" beforeDir="false" afterPath="$PROJECT_DIR$/Template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/김웅진/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251015.md" beforeDir="false" afterPath="$PROJECT_DIR$/김웅진/diary/251015.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/김웅진/diary/251016.md" beforeDir="false" afterPath="$PROJECT_DIR$/김웅진/diary/251016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/김웅진/labs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/김웅진/labs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/윤수정/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/윤수정/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/윤수정/diary/251016.md" beforeDir="false" afterPath="$PROJECT_DIR$/윤수정/diary/251016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/윤수정/diary/251020.md" beforeDir="false" afterPath="$PROJECT_DIR$/윤수정/diary/251020.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/윤수정/labs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/윤수정/labs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/201020.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/201020.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251015.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/251015.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251016.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/251016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251021.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/251021.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/251022.md" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/251022.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/image/EntityLifecycle.png" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/image/EntityLifecycle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/diary/image/EntitySta.png" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/diary/image/EntitySta.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/labs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/labs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/1014Q" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/1014Q" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/config/BookConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/config/BookConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/config/CarConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/config/CarConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251014/Q1/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/이기윤/회고/251014/Q1/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/이기윤/회고/251021/BoardProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251015.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251015.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251016.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251017.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251017.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251020.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251020.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/diary/251022.md" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/diary/251022.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/UserExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/UserExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/config/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/config/UserConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/repository/UserDaheeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/repository/UserDaheeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/repository/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/repository/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251014/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251014/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251023/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251023/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251023/AuthorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251023/AuthorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251023/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251023/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251023/JPAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251023/JPAUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251027/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251027/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251027/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251027/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251027/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251027/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251027/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/정다희/labs/practice_251027/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251014.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251015.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251015.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251016.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251017.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251017.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251020.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251020.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251022.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251022.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/diary/251023.md" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/diary/251023.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/P_251027/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/labs/P_251027/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/P_251027/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/labs/P_251027/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/P_251027/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/labs/P_251027/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/P_251027/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/labs/P_251027/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/members/최민혁/labs/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/최민혁/labs/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/likelion_retro2nd_team3_repo/LikelionRetro2ndTeam3RepoApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +222,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;daheenamic&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/likelion19th-retro2nd-team3/likelion-retro2nd-team3-repo.git&quot;,
+    &quot;accountId&quot;: &quot;ba5f86e7-c2b7-4fda-a70a-ebf0b1c66a8e&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -62,56 +245,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build likelion-retro2nd-team3-repo.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.likelion-retro2nd-team3-repo [:com.members.김웅진.labs.Test.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.likelion-retro2nd-team3-repo [:com.members.윤수정.labs.Test.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.LikelionRetro2ndTeam3RepoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jeongdahee/dev/likelion-retro2nd-team3-repo/src/main/java/com/members/김웅진&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.23312883&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build likelion-retro2nd-team3-repo.executor": "Run",
+    "Gradle.likelion-retro2nd-team3-repo [:com.members.김웅진.labs.Test.main()].executor": "Run",
+    "Gradle.likelion-retro2nd-team3-repo [:com.members.윤수정.labs.Test.main()].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LikelionRetro2ndTeam3RepoApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jeongdahee/dev/likelion-retro2nd-team3-repo/src/main/java/com/members/정다희/labs/practice_251027",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23312883",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/members/정다희/labs/practice_251027" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/members/김웅진" />
       <recent name="$PROJECT_DIR$/src/main/java/com/members/최민혁" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/members/정다희" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/members/이기윤" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/likelion_retro2nd_team3_repo" />
       <recent name="$PROJECT_DIR$/members" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.members.정다희.labs.practice_251027" />
       <recent name="org.example.demo" />
     </key>
   </component>
@@ -128,9 +317,13 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -142,6 +335,11 @@
       <workItem from="1760343975234" duration="511000" />
       <workItem from="1760344939443" duration="1570000" />
       <workItem from="1760346975096" duration="5919000" />
+      <workItem from="1761266039074" duration="61000" />
+      <workItem from="1761289886007" duration="1405000" />
+      <workItem from="1761563334786" duration="73000" />
+      <workItem from="1761563489394" duration="7000" />
+      <workItem from="1761570396801" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 201013 폴더 생성 및 commit test">
       <option name="closed" value="true" />
@@ -159,7 +357,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760361049063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="docs: 251023 실습파일 추가">
+      <option name="closed" value="true" />
+      <created>1761265331225</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761265331225</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 251024 빌드 환경 변경">
+      <option name="closed" value="true" />
+      <created>1761290798234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761290798235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add: 251027 실습 코드 업로드">
+      <option name="closed" value="true" />
+      <created>1761570458758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761570458758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +443,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 201013 폴더 생성 및 commit test" />
     <MESSAGE value="feat: commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: commit test" />
+    <MESSAGE value="docs: 251023 실습파일 추가" />
+    <MESSAGE value="feat: 251024 빌드 환경 변경" />
+    <MESSAGE value="add: 251027 실습 코드 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 251027 실습 코드 업로드" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
