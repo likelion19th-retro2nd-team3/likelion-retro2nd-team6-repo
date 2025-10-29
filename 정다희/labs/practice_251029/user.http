@@ -1,0 +1,28 @@
+### GET - list
+GET http://localhost:8080/api/users
+Content-Type: application/json
+
+### GET - view
+GET http://localhost:8080/api/users/8
+Content-Type: :application/json
+
+### POST - create
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "dahee",
+  "email": "dahee@gmail.com"
+}
+
+### PUT - update
+PUT http://localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "name": "test_modify"
+}
+
+### DELETE - delete
+DELETE http://localhost:8080/api/users/8
+
